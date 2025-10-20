@@ -16,8 +16,8 @@ C:\Users\manas>ipconfig
 Windows IP Configuration
 Ethernet adapter Ethernet 2:
    Connection-specific DNS Suffix  . :
-   Link-local IPv6 Address . . . . . : fe80::72f5:b3e0:4996:aa78%4
-   IPv4 Address. . . . . . . . . . . : 192.168.56.1
+   Link-local IPv6 Address . . . . . : fe80::72f5:b3e0:4996:*****
+   IPv4 Address. . . . . . . . . . . : 192.168.**.*
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Default Gateway . . . . . . . . . :
 
@@ -45,9 +45,9 @@ Wireless LAN adapter WiFi:
 
    Connection-specific DNS Suffix  . :
    Link-local IPv6 Address . . . . . : fe80::eacd:4338:d21c:eab1%23
-   IPv4 Address. . . . . . . . . . . : 192.168.8.10
+   IPv4 Address. . . . . . . . . . . : 192.168.8.**
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Default Gateway . . . . . . . . . : 192.168.8.1
+   Default Gateway . . . . . . . . . : 192.168.*.*
 
 Ethernet adapter Bluetooth Network Connection:
 
@@ -68,9 +68,9 @@ Ethernet adapter Ethernet:
 
 I got all the active ports which are open and it performed a full scan and i got the names of all the ports and services which are open 
 
-C:\Users\manas>nmap -sS 192.168.56.1/24
+C:\Users\manas>nmap -sS 192.168.**.*/24
 Starting Nmap 7.96 ( https://nmap.org ) at 2025-10-20 10:22 India Standard Time
-Nmap scan report for 192.168.56.1
+Nmap scan report for 192.168.**.*
 Host is up (0.00021s latency).
 Not shown: 996 closed tcp ports (reset)
 PORT     STATE SERVICE
